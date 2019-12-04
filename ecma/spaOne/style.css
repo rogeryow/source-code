@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+nav ol{
+	margin: 0;
+	padding: 0;
+}
+nav ol li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+nav ol li a{
+	text-decoration: none;
+}
+.page{
+	display: none;
+	width: 100%;
+	min-height: 100%;
+	position: fixed;
+	padding: 1rem 2rem;
+}
+.active{
+	display: block;
+}
+#home{
+	background-color: hsl(60,50%,80%);
+}
+#list{
+	background-color: hsl(180,50%,80%);
+}
+#detail{
+	background-color: hsl(240,50%,80%);
+}
+#another{
+	background-color: red;
+}
+#anotherOne{
+	background-color: blue;
+}
+h1{
+	font-size: 2rem;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+.big{
+	font-size: 5rem;
+	font-weight: 900;
+}

@@ -1,0 +1,46 @@
+#list files
+	ls
+#dir
+	cd
+#init master
+	git init
+#add reposittory
+git remote add origin <gitlink>
+#show rep
+git remote -v
+#add to queue
+git add
+#commit ?
+git commit -m "first commit"
+#push proj to res
+git push origin master
+
+#help
+git help
+
+#add
+ git add . {adds everthing in cur dir}
+
+
+#reset
+git pull --rebase origin master
+git push origin master
+
+#change url
+git remote set-url origin git@gitserver.com:user/repo_name.git
+git remote -v
+
+#add text 
+echo "text here" >> sample.txt
+git status
+
+#make branch and push
+$ git branch {master}
+$ git branch <branch-name> {make new branch}
+$ git checkout <branch-name >{switch branch}
+$ git add
+$ git commit -m "updating branch" {commit if change}
+$ git checkout master {switch to master}
+$ git push origin <branch-name> {update/add branch}
+
+something
